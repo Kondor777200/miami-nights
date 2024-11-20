@@ -6,6 +6,11 @@
   "engines": {
     "vscode": "^1.94.0"
   },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Kondor777200/miami-nights"
+	},
+  "publisher": "Kondor777200",
   "categories": [
     "Themes"
   ],
