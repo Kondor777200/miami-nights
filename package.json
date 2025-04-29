@@ -2,14 +2,14 @@
   "name": "miami-nights",
   "displayName": "miami-nights",
   "description": "Color theme based on monkeytype's miami nights theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.94.0"
   },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/Kondor777200/miami-nights"
-	},
+    "type": "git",
+    "url": "https://github.com/Kondor777200/miami-nights"
+  },
   "publisher": "Kondor777200",
   "categories": [
     "Themes"
@@ -19,8 +19,12 @@
       {
         "label": "Miami Nights",
         "uiTheme": "vs-dark",
-        "path": "./themes/Miami Nights-color-theme.json"
+        "path": "./themes/miami-nights-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.3.2",
+    "install-peerdeps": "^3.0.7"
   }
 }
